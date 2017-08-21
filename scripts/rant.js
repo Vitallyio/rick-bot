@@ -39,6 +39,6 @@ module.exports = function (robot) {
     ];
 
     var rant = msg.random(rants);
-    msg.send(rant[0]);
+    msg.send(rant);
   });
 };
